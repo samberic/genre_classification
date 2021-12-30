@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-30T21:02:04.593240",
+    "startedAt": "2021-12-30T21:02:02.046413",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/samberic/genre_classification.git",
+        "commit": "fc9c6364a67215d1cc71dc5272502d3acb13184b"
+    },
+    "email": "sam@samatkinson.com",
+    "root": "/Users/sam/code/genre_classification",
+    "host": "Sams-MacBook-Air.local",
+    "username": "sam",
+    "executable": "/Users/sam/miniconda3/envs/mlflow-2f145eba00834acf5a8352c413d14997e544f6bf/bin/python"
+}

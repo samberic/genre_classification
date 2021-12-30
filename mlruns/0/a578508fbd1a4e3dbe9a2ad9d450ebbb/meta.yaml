@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sam/code/genre_classification/mlruns/0/a578508fbd1a4e3dbe9a2ad9d450ebbb/artifacts
+end_time: 1640897584397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a578508fbd1a4e3dbe9a2ad9d450ebbb
+run_uuid: a578508fbd1a4e3dbe9a2ad9d450ebbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1640897421512
+status: 4
+tags: []
+user_id: sam

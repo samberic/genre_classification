@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-30T20:52:52.716566",
+    "startedAt": "2021-12-30T20:52:50.731959",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/samberic/genre_classification.git",
+        "commit": "fc9c6364a67215d1cc71dc5272502d3acb13184b"
+    },
+    "email": "sam@samatkinson.com",
+    "root": "/Users/sam/code/genre_classification",
+    "host": "Sams-MacBook-Air.local",
+    "username": "sam",
+    "executable": "/Users/sam/miniconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/bin/python"
+}
